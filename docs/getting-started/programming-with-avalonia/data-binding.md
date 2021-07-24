@@ -5,7 +5,7 @@ Avalonia includes comprehensive support for [binding](../../data-binding/binding
 * Multiple binding modes: one way, two way, one-time and one-way to source
 * Binding to a [`DataContext`](../../data-binding/the-datacontext.md)
 * Binding to [other controls](../../data-binding/binding-to-controls.md)
-* Binding to [`Task`s and `Observables`](../../data-binding/binding-to-tasks-and-observables.md)\`\`
+* Binding to [`Tasks and Observables`](../../data-binding/binding-to-tasks-and-observables.md)
 * Binding [converters](../../data-binding/converting-binding-values.md) and negating binding values
 
 The following example shows a `TextBlock` when an associated `TextBox` is disabled, by using a binding:
