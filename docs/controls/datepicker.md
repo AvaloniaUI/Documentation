@@ -59,7 +59,7 @@ myDatePicker.SelectedDate = new DateTimeOffset(new DateTime(1950, 1, 1));
 
 ### Reference <a id="reference"></a>
 
-[D](http://reference.avaloniaui.net/api/Avalonia.Controls/TextBox/)atePicker
+[DatePicker](http://reference.avaloniaui.net/api/Avalonia.Controls/TextBox/)
 
 ### Source code <a id="source-code"></a>
 
