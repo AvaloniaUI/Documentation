@@ -71,7 +71,7 @@ Similarly, a `CheckBox` can be displayed in the `Icon` property to make the `Men
 
 ### Dynamically Creating Menus <a id="dynamically-creating-menus"></a>
 
-Menus can also be dynamically created using bindings and [`DataTemplate`s](https://docs.avaloniaui.net/misc/wpf/datatemplates). To do this, you will usually create a view model to represent your `Window` with a set of commands relating to the menu commands:
+Menus can also be dynamically created using bindings and [`DataTemplate`](https://docs.avaloniaui.net/misc/wpf/datatemplates) s. To do this, you will usually create a view model to represent your `Window` with a set of commands relating to the menu commands:
 
 ```csharp
 public class MainWindowViewModel
