@@ -44,7 +44,7 @@ A split view's content area is always visible. The pane can expand and collapse 
 
 ## API Reference
 
-SplitView
+[SplitView](http://reference.avaloniaui.net/api/Avalonia.Controls/SplitView/)
 
 ## Source code
 
