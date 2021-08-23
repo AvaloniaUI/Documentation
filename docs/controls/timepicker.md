@@ -77,7 +77,7 @@ To use the time value in your app, you typically use a data binding to the `Sele
 
 ### Reference <a id="reference"></a>
 
-[T](http://reference.avaloniaui.net/api/Avalonia.Controls/TextBox/)imePicker
+[TimePicker](http://reference.avaloniaui.net/api/Avalonia.Controls/TimePicker/)
 
 ### Source code <a id="source-code"></a>
 
