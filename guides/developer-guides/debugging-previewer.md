@@ -14,7 +14,7 @@ In my case process was called **.NET Host**. You can understand that this proces
 
 ![](https://user-images.githubusercontent.com/53405089/132685764-7feff643-8c86-4095-bdad-0d168e435ac4.png)
 
-When you know the process id you can simply click "Debug" in process explorer. But sometimes previewer process may crash even before you would attach your debugger. Then you will need to modify this file [https://github.com/AvaloniaUI/Avalonia/blob/master/src/tools/Avalonia.Designer.HostApp/Program.cs](https://github.com/AvaloniaUI/Avalonia/blob/master/src/tools/Avalonia.Designer.HostApp/Program.cs) specifically method Main\(one of them depending on target framework\).
+When you know the process id you can simply click "Debug" in process explorer. But sometimes previewer process may crash even before you would attach your debugger. Then you will need to modify this file [Program.cs](https://github.com/AvaloniaUI/Avalonia/blob/master/src/tools/Avalonia.Designer.HostApp/Program.cs) specifically method Main\(one of them depending on target framework\).
 
 ```csharp
 Debugger.Launch();
