@@ -39,7 +39,7 @@ Check out the [community guide](community.md) to see how you can get involved wi
 * Fedora 30+
 
 {% hint style="info" %}
-Skia is built against glibc. If your distro uses something else instead, you need to build your own libSkiaSharp.so at [https://github.com/mono/SkiaSharp](https://github.com/mono/SkiaSharp) . We provide a precompiled binary _only_ for Intel x86-64. ARM/ARM64 support is planned.
+Skia is built against glibc. If your distro uses something else instead, you need to build your own libSkiaSharp.so at [SkiaSharp](https://github.com/mono/SkiaSharp) . We provide a precompiled binary _only_ for Intel x86-64. ARM/ARM64 support is planned.
 {% endhint %}
 
 ### What versions of macOS are supported?
@@ -49,6 +49,6 @@ Skia is built against glibc. If your distro uses something else instead, you nee
 {% hint style="success" %}
 **Credits**
 
-Portions of this documentation were adapted from [https://github.com/dotnet/docs/](https://github.com/dotnet/docs/) licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+Portions of this documentation were adapted from [Dotnet docs](https://github.com/dotnet/docs/) licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 {% endhint %}
 
