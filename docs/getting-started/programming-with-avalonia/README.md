@@ -25,7 +25,7 @@ Specifically, this XAML defines a window and a button by using the Window and Bu
 
 The following images show the user interface that is defined by the XAML in the previous example running on Windows:
 
-Since XAML is XML-based, the UI that you compose with it is assembled in a hierarchy of nested elements known as an [element tree](http://avaloniaui.net/docs/advanced/trees). The element tree provides a logical and intuitive way to create and manage UIs.
+Since XAML is XML-based, the UI that you compose with it is assembled in a hierarchy of nested elements known as an element tree. The element tree provides a logical and intuitive way to create and manage UIs.
 
 ![](../../../.gitbook/assets/click-me.png)
 
