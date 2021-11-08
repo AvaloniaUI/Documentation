@@ -109,7 +109,7 @@ Notice we check the result for `null`, this is because the `user` may have cance
 
 Lets run the program and see if it works.
 
-![image-20210310175949319](http://avaloniaui.net/docs/advanced-tutorial/images/image-20210310175949319.png)
+![image-20210310175949319](https://avaloniaui.net/docs/advanced-tutorial/images/image-20210310175949319.png)
 
 For the finishing touch we simply need to add persistance to the application.
 

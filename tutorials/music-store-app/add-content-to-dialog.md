@@ -233,7 +233,7 @@ You `MusicStoreWindow.axaml` should look like this.
 
 Run the application:
 
-![text-list](http://avaloniaui.net/docs/advanced-tutorial/images/text-list.png)
+![text-list](https://avaloniaui.net/docs/advanced-tutorial/images/text-list.png)
 
 Our items are showing in the List... but not very visual.
 
@@ -288,7 +288,7 @@ We shall come back to the `Bindings` in a moment, for now lets run the applicati
 
 As can be seen the albums are displayed vertically. However it would be nice to have them horizontally and wrap around.
 
-![image-20210310010932979](http://avaloniaui.net/docs/advanced-tutorial/images/image-20210310010932979.png)
+![image-20210310010932979](https://avaloniaui.net/docs/advanced-tutorial/images/image-20210310010932979.png)
 
 Luckily `ListBox` provides a solution to this with something called `ItemsPanelTemplate`. By default the `ListBox` has its `ItemPanel` property set to an `ItemsPanelTemplate` which contains a `StackPanel`, we can change this to a `WrapPanel` like so.
 
@@ -304,7 +304,7 @@ Luckily `ListBox` provides a solution to this with something called `ItemsPanelT
 
 Now when we run the application we get:
 
-![image-20210310011526700](http://avaloniaui.net/docs/advanced-tutorial/images/image-20210310011526700.png)
+![image-20210310011526700](https://avaloniaui.net/docs/advanced-tutorial/images/image-20210310011526700.png)
 
 As our list gets more items, that will wrap around onto the next line, and the user will be able to scroll.
 

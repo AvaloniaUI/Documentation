@@ -75,7 +75,7 @@ The first thing to notice here is that we've changed the `<StackPanel>` control 
 
 The `ItemsControl` is a very simple control which displays each item in the collection assigned to its `Items` property. Here each item will be an instance of our model `TodoItem` as that's what `TodoListViewModel.Items` exposes.
 
-How each item is displayed is controlled by the `ItemTemplate`. The `ItemTemplate` takes a [`DataTemplate`](http://avaloniaui.net/docs/templates/datatemplate) whose content is repeated for each item. In this case we display each item as a `CheckBox`, with the check state bound to the `IsChecked` property of the `TodoItemViewModel` and the content bound to the `Description`. We also set a `Margin` as before to space the items out a little:
+How each item is displayed is controlled by the `ItemTemplate`. The `ItemTemplate` takes a [`DataTemplate`](https://avaloniaui.net/docs/templates/datatemplate) whose content is repeated for each item. In this case we display each item as a `CheckBox`, with the check state bound to the `IsChecked` property of the `TodoItemViewModel` and the content bound to the `Description`. We also set a `Margin` as before to space the items out a little:
 
 ```markup
 <ItemsControl.ItemTemplate>

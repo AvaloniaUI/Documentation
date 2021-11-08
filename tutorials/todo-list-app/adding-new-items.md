@@ -4,7 +4,7 @@ When we originally created the `TodoListView` we added an "Add an item" button. 
 
 ### Create the view <a id="create-the-view"></a>
 
-We start by creating the view \(see [here](http://avaloniaui.net/docs/tutorial/creating-a-view#create-the-usercontrol) for a refresher on how to create a `UserControl` using a template\):
+We start by creating the view \(see [here](https://avaloniaui.net/docs/tutorial/creating-a-view#create-the-usercontrol) for a refresher on how to create a `UserControl` using a template\):
 
 Views/AddItemView.axaml
 
@@ -91,7 +91,7 @@ namespace Todo.ViewModels
 
 Here we add a `Content` property which is initially set to our list view model. When the `AddItem()` method is called, we assign an `AddItemViewModel` to the `Content` property.
 
-The `Content` property setter calls `RaiseAndSetIfChanged` which will cause [a change notification](http://avaloniaui.net/docs/binding/change-notifications) to be fired each time the property changes value. Avalonia's binding system needs change notifications in order to know when to update the user-interface in response to a property change.
+The `Content` property setter calls `RaiseAndSetIfChanged` which will cause [a change notification](https://avaloniaui.net/docs/binding/change-notifications) to be fired each time the property changes value. Avalonia's binding system needs change notifications in order to know when to update the user-interface in response to a property change.
 
 We now want to bind our `Window.Content` property to this new `Content` property instead of the `List` property that it is currently bound to:
 
@@ -338,13 +338,13 @@ public ReactiveCommand<Unit, Unit> Cancel { get; }
 
 The second type parameter to `ReactiveCommand` specifies the type of result it produces when the command is executed. `Ok` produces a `TodoItem` while `Cancel` produces a `Unit`. `Unit` is the reactive version of `void`. It means the command produces no value.
 
-[`Observable.Merge`](http://reactivex.io/documentation/operators/merge.html) combines the output from any number of obervables and merges them into a single observable stream. Because they're being merged into a single stream, they need to be of the same type. For this reason we call `vm.Cancel.Select(_ => (TodoItem)null)`: this has the effect that every time the `Cancel` observable produces a value we select a `null` `TodoItem`.
+[`Observable.Merge`](https://reactivex.io/documentation/operators/merge.html) combines the output from any number of obervables and merges them into a single observable stream. Because they're being merged into a single stream, they need to be of the same type. For this reason we call `vm.Cancel.Select(_ => (TodoItem)null)`: this has the effect that every time the `Cancel` observable produces a value we select a `null` `TodoItem`.
 
 ```csharp
 .Take(1)
 ```
 
-We're only interested in the first click of either the OK or Cancel button; once one of the buttons are clicked we don't need to listen for any more clicks. [`Take(1)`](http://reactivex.io/documentation/operators/take.html) means "just take the first value produced by the observable sequence".
+We're only interested in the first click of either the OK or Cancel button; once one of the buttons are clicked we don't need to listen for any more clicks. [`Take(1)`](https://reactivex.io/documentation/operators/take.html) means "just take the first value produced by the observable sequence".
 
 ```csharp
 .Subscribe(model =>

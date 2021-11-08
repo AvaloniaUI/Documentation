@@ -22,7 +22,7 @@ Let's try and make this look a little more modern by applying `Dark` mode and so
 
    The previewer knows about changes you make to the file your editing, but it doesn't know about changes in other files. This is why you need to build the project if another file was changed.
 
-   ![dark-mode-preview](http://avaloniaui.net/docs/advanced-tutorial/images/dark-mode-preview.png)
+   ![dark-mode-preview](https://avaloniaui.net/docs/advanced-tutorial/images/dark-mode-preview.png)
 
 3. After where it says `Title="Avalonia.MusicStore"` add the following code:
 
@@ -80,7 +80,7 @@ Now click the `Debug` `Button` to run the application again.
 
 Notice we have a nice acrylic window effect. Shame about the titlebar, though. Let's see how we can make that blend in a bit more.
 
-![acrylic-material](http://avaloniaui.net/docs/advanced-tutorial/images/acrylic-material.png)
+![acrylic-material](https://avaloniaui.net/docs/advanced-tutorial/images/acrylic-material.png)
 
 \*Note, Linux users can not yet take advantage of this due to limitations of X11. The code will run and the window will still work on Linux, but the full effect will not be realised.
 
@@ -108,7 +108,7 @@ Notice we have a nice acrylic window effect. Shame about the titlebar, though. L
 
 Press the `Debug` button again to run.
 
-![full-acrylic-window](http://avaloniaui.net/docs/advanced-tutorial/images/full-acrylic-window.png)
+![full-acrylic-window](https://avaloniaui.net/docs/advanced-tutorial/images/full-acrylic-window.png)
 
 Perfect, a modern looking Window, Avalonia is able to render every pixel.
 

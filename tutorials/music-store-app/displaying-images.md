@@ -153,5 +153,5 @@ Ok run the application and search for your favourite artist.
 
 Notice how the Albums covers load one by one, but that the UI remains responsive.
 
-![image-20210310173858088](http://avaloniaui.net/docs/advanced-tutorial/images/image-20210310173858088.png)
+![image-20210310173858088](https://avaloniaui.net/docs/advanced-tutorial/images/image-20210310173858088.png)
 

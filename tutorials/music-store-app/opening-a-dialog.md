@@ -10,7 +10,7 @@ First we need to add a Window to the project, right click on the `Views` folder 
 
 When prompted name this MusicStoreWindow and press the `Enter` key.
 
-![add-window](http://avaloniaui.net/docs/advanced-tutorial/images/add-window.png)
+![add-window](https://avaloniaui.net/docs/advanced-tutorial/images/add-window.png)
 
 This will add the following code:
 
@@ -199,7 +199,7 @@ Also set `Width` and `Height` properties of the `MusicStoreWindows` `<Window>` e
 
 Now run the application and click the Store button.
 
-![dialog-opened](http://avaloniaui.net/docs/advanced-tutorial/images/dialog-opened.png)
+![dialog-opened](https://avaloniaui.net/docs/advanced-tutorial/images/dialog-opened.png)
 
 As you can see the dialog window is opened perfectly centered inside the MainWindow.
 

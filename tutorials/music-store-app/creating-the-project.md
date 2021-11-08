@@ -6,9 +6,9 @@ From the Rider Welcome Screen, click on `New Solution`. This will open a dialog 
 
 At the bottom on the left hand side under the heading `Other` you will see `Avalonia .NET Core MVVM App` select it and then type `Avalonia.MusicStore` as the `Solution Name`. Everything else can be left as default.
 
-Click the `Create` button.![CreateSolution](http://avaloniaui.net/docs/advanced-tutorial/images/CreateSolution.png)
+Click the `Create` button.![CreateSolution](https://avaloniaui.net/docs/advanced-tutorial/images/CreateSolution.png)
 
-A new project will be created with the following structure.![project-structure](http://avaloniaui.net/docs/advanced-tutorial/images/project-structure.png)
+A new project will be created with the following structure.![project-structure](https://avaloniaui.net/docs/advanced-tutorial/images/project-structure.png)
 
 The folders are:
 
@@ -34,11 +34,11 @@ Some of the important files are:
 
 Press the debug button top right of the IDE to compile and run the project.
 
-![debug-button](http://avaloniaui.net/docs/advanced-tutorial/images/debug-button.png)
+![debug-button](https://avaloniaui.net/docs/advanced-tutorial/images/debug-button.png)
 
 This will show a Window that looks like:
 
-![image-20210310192926578](http://avaloniaui.net/docs/advanced-tutorial/images/image-20210310192926578.png)
+![image-20210310192926578](https://avaloniaui.net/docs/advanced-tutorial/images/image-20210310192926578.png)
 
 A little plain but we now have a running application, and a blank canvas to start from.
 

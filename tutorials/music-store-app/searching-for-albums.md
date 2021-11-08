@@ -16,7 +16,7 @@ This will open the `Packages` tool at the bottom of the IDE, like so.
 
 Search for `ItunesSearch` and press the green `+` button on the right hand side to install it.
 
-![image-20210310013703557](http://avaloniaui.net/docs/advanced-tutorial/images/image-20210310013703557.png)
+![image-20210310013703557](https://avaloniaui.net/docs/advanced-tutorial/images/image-20210310013703557.png)
 
 1. In the `Models` folder add a new class called `Album` and paste in the following code.
 
@@ -206,5 +206,5 @@ SearchResults.Add(new AlbumViewModel());
 
 Now run the application and click the store button, then search for an artist or album name. If all has gone to plan you should see the progressbar animating whilst the server is busy processing the request and then you should see some results appear in the list.
 
-![image-20210310110401944](http://avaloniaui.net/docs/advanced-tutorial/images/image-20210310110401944.png)
+![image-20210310110401944](https://avaloniaui.net/docs/advanced-tutorial/images/image-20210310110401944.png)
 

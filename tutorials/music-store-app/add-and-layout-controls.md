@@ -47,7 +47,7 @@ public class MainWindowViewModel : ViewModelBase
 
 Pressing the `Debug Button` again to run the program we can see we have a button and when clicked setting a breakpoint inside the `BuyMusicCommand` code we can see that the code is executed when it's hit.
 
-![buy-button](http://avaloniaui.net/docs/advanced-tutorial/images/buy-button.png)
+![buy-button](https://avaloniaui.net/docs/advanced-tutorial/images/buy-button.png)
 
 Let's position the button to the top right of the screen and make it look a bit nicer.
 
@@ -63,7 +63,7 @@ The simplest way to control the layout of a control is with the `HorizontalAlign
 
 We also add a `Margin` of 40 to the `Panel` so that the button is not right at the edge of the Window.
 
-You may prefer to have an icon or image instead of text inside your button. The are a few ways to do this, let's grab a store icon from [Avalonia - Fluent Icons](http://avaloniaui.github.io/icons.html)
+You may prefer to have an icon or image instead of text inside your button. The are a few ways to do this, let's grab a store icon from [Avalonia - Fluent Icons](https://avaloniaui.github.io/icons.html)
 
 Scroll through this page and find an icon you like, then simply copy the code provided.
 
@@ -79,7 +79,7 @@ Let's create a file just for Icons.
 
 In Rider right click on the project and select `Add` → `Avalonia Styles`
 
-![add-styles](http://avaloniaui.net/docs/advanced-tutorial/images/add-styles.png)
+![add-styles](https://avaloniaui.net/docs/advanced-tutorial/images/add-styles.png)
 
 Enter the name `Icons` when prompted and press `Enter`.
 
@@ -139,5 +139,5 @@ Return to `MainWindow.axaml`, we can add the Icon to the Button like so...
 
 Running the application we now have a nice button.
 
-![pretty-button](http://avaloniaui.net/docs/advanced-tutorial/images/pretty-button.png)
+![pretty-button](https://avaloniaui.net/docs/advanced-tutorial/images/pretty-button.png)
 

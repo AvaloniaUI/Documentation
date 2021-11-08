@@ -16,7 +16,7 @@ This guide has instructions for Rider on OSX, however the steps will be almost t
 
 Our livestream assumes some knowledge of [XAML](../../guides/basics/introduction-to-xaml.md), [MVVM ](../../guides/basics/mvvm.md)development, however this guide should fill in the gaps for beginners.
 
-![](http://avaloniaui.net/docs/advanced-tutorial/images/image-20210310184538120.png)
+![](https://avaloniaui.net/docs/advanced-tutorial/images/image-20210310184538120.png)
 
 ## A little background to Avalonia <a id="a-little-background-to-avalonia"></a>
 
@@ -40,7 +40,7 @@ MVVM is simply a way to enforce [Separation of concerns](https://en.wikipedia.or
 
 Following the MVVM approach will alleviate these difficulties and help keep your UI code scalable.
 
-![img](http://avaloniaui.net/docs/advanced-tutorial/images/mvvm.png)
+![img](https://avaloniaui.net/docs/advanced-tutorial/images/mvvm.png)
 
 **How does MVVM work?**
 
