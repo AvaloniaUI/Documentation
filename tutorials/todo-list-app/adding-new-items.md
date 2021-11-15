@@ -91,7 +91,7 @@ namespace Todo.ViewModels
 
 Here we add a `Content` property which is initially set to our list view model. When the `AddItem()` method is called, we assign an `AddItemViewModel` to the `Content` property.
 
-The `Content` property setter calls `RaiseAndSetIfChanged` which will cause [a change notification](https://avaloniaui.net/docs/binding/change-notifications) to be fired each time the property changes value. Avalonia's binding system needs change notifications in order to know when to update the user-interface in response to a property change.
+The `Content` property setter calls `RaiseAndSetIfChanged` which will cause [a change notification](https://docs.avaloniaui.net/docs/data-binding/change-notifications) to be fired each time the property changes value. Avalonia's binding system needs change notifications in order to know when to update the user-interface in response to a property change.
 
 We now want to bind our `Window.Content` property to this new `Content` property instead of the `List` property that it is currently bound to:
 
