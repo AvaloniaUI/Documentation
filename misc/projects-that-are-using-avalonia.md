@@ -32,7 +32,7 @@ The Avalonia port of ILSpy
 
 ![AvaloniaILSpy](https://github.com/icsharpcode/AvaloniaILSpy/raw/master/preview.png)
 
-## [Jaya - Cross Plat](https://github.com/waliarubal/Jaya)
+## [Jaya - Cross Plat](https://github.com/nullvoid-creations/Jaya)
 
 **Jaya - Cross Plat** is a small .NET Core based cross platform file explorer application which runs on Windows, Mac and Linux. Its goal is very simple, _"To allow browsing and managing of several file systems simultaneously using a one application which should work and look similar on all platforms it supports."_.
 
