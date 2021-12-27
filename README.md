@@ -18,11 +18,14 @@ If you're familiar with WPF or UWP then you should feel right at home with Avalo
 * Avalonia allows creating applications that look and behave the same on most popular Desktop platforms \(Windows, Mac, various flavors of Linux\) while also allowing the platform specific customizations.
 * Avalonia is supported by the following companies:
 
-| | | | 
-|:---:|:---:|:---:|
-| [![](.gitbook/assets/se.png)](https://www.se.com/us/en/) | [![](.gitbook/assets/jblogo%20%282%29.png)](https://www.jetbrains.com/)  | [![](.gitbook/assets/unitylogo.png)](https://unity.com/) |
-| [![](.gitbook/assets/logo_thales_500.png)](https://www.thalesgroup.com/) | [![](.gitbook/assets/synergy-logo.png)](https://synergysports.com/)  | [![](.gitbook/assets/gritworld-logo.png)](https://en.gritworld.com/) |
-| [![](.gitbook/assets/wasabi-wallet-logo.svg)](https://www.wasabiwallet.io/) | [![](.gitbook/assets/mailbird-logo.png)](https://www.getmailbird.com/) |
+[![](.gitbook/assets/se.png)](https://www.se.com/us/en/)
+[![](.gitbook/assets/jblogo%20%282%29.png)](https://www.jetbrains.com/)
+[![](.gitbook/assets/unitylogo.png)](https://unity.com/)
+[![](.gitbook/assets/logo_thales_500.png)](https://www.thalesgroup.com/)
+[![](.gitbook/assets/synergy-logo.png)](https://synergysports.com/)
+[![](.gitbook/assets/gritworld-logo.png)](https://en.gritworld.com/)
+[![](.gitbook/assets/wasabi-wallet-logo.svg)](https://www.wasabiwallet.io/)
+[![](.gitbook/assets/mailbird-logo.png)](https://www.getmailbird.com/)
 
   and many other smaller companies.
 
