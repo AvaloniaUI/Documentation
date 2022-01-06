@@ -5,7 +5,7 @@ via [DRM](https://en.wikipedia.org/wiki/Direct_Rendering_Manager).
 
 ### Step 1 - Setup the Raspberry Pi
 
-First step is to setup you're Raspberry Pi.
+First step is to setup your Raspberry Pi.
 
 #### 1.1 Download the Raspbian lite operation system image.
 
@@ -35,19 +35,19 @@ these [steps](https://www.raspberrypi.com/documentation/computers/compute-module
 - Open Etcher and select from your hard drive the .zip file you downloaded in step 1.1.
 - Select the mass storage (SD card or CM4 EMMC) you wish to write your image to.
 - Review your selections and click 'Flash!' to begin writing data. Once flashing is complete, create a new empty file
-  named **ssh** (with no extension, e.q with `touch ssh`) in the boot drive of the raspberry. This will ensure that the SSH daemon is enabled
+  named **ssh** (with no extension, e.q with `touch ssh`) in the boot drive of the Raspberry. This will ensure that the SSH daemon is enabled
   once the Raspberry Pi has started and you can logon over the network.
-- ***Only for Cm4** add the following to `/boot/config.txt` to enable the usb 2.0 ports*
+- ***Only for Cm4** add the following to `/boot/config.txt` to enable the Usb 2.0 ports*
 ```text
 dtoverlay=dwc2,dr_mode=host
 ```
-- Start up you're Raspberry and login.  
-**Raspberry Pi 4 b**: Put the SD card into the raspberry and plug in power supply  
-**CM 4**: on CM4 IO Board unplug the power supply, remove J2 jumper, plug in power supply again
+- Start up your Raspberry and login.  
+**Raspberry Pi 4 b**: Put the SD card into the Raspberry and plug in power supply  
+**CM 4**: On CM4 IO Board unplug the power supply, remove J2 jumper, plug in power supply again
 
-#### 1.3 Install missing libaries
+#### 1.3 Install missing libraries
 
-Some libaries required to run a Avalonia app via DRM on raspbian lite:
+Some libraries required to run a Avalonia app via DRM on raspbian lite:
 
 ```bash
 sudo apt update
@@ -57,13 +57,13 @@ sudo apt-get install libgbm1 libgl1-mesa-dri libegl1-mesa libinput10
 ```
 
 #### 1.4 Verify DRM (optional)
-You can test you're installation with a simple but useful tool called [kmscube](https://gitlab.freedesktop.org/mesa/kmscube).
+You can test your installation with a simple but useful tool called [kmscube](https://gitlab.freedesktop.org/mesa/kmscube).
 ```bash
 sudo apt-get install kmscube
 sudo kmscube
 ````
-You should see the cube spinning on you're Raspberry pi screen:
-[![](../../.gitbook/assets/avalonia-raspbian-lite-drm-kmscube.gif)]()
+You should see the spinning cube on your Raspberry pi screen now:  
+[![](../../.gitbook/assets/avalonia-raspbian-lite-drm-kmscube.gif)](../../.gitbook/assets/avalonia-raspbian-lite-drm-kmscube.gif)
 
 ### Step 2 - Prepare Avalonia App
 
@@ -80,7 +80,7 @@ dotnet add package Avalonia.LinuxFramebuffer
 When we work via FrameBuffer there are no windows, so we need a separate view (UserControl) which will be our toplevel control. This view is the
 counterpart to the normal window.   
 
-`MainView`will be our app base in which we develop our UI:
+`MainView` will be our app base in which we develop our UI:
 ```xaml
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -133,7 +133,7 @@ Also change the `MainWindow.axaml` to host the `MainView` inside:
 </Window>
 ```
 *So as you see the MainView is hosted in booth `MainSingleView` and `MainWindow`.
-This makes it easier for development to run the app also on desktop and on the raspbian*
+This makes it easier for development to run the app also on desktop and on the Raspberry*
 
 **2.3 Prepare Program.cs**  
 Next we need to prepare the `Program.cs` to enable the DRM usage.  
@@ -182,35 +182,34 @@ public override void OnFrameworkInitializationCompleted()
 ```
 
 **2.5 Run and test on desktop**  
-Now you can run/debug you're app on desktop as usual.  
-When you start you're app you should see this:
-[![](../../.gitbook/assets/avalonia-raspbian-lite-drm-desktop.jpg)]()
+Now you can run/debug your app on desktop as usual.  
+When you start your app you should see this:  
+[![](../../.gitbook/assets/avalonia-raspbian-lite-drm-desktop.jpg)](../../.gitbook/assets/avalonia-raspbian-lite-drm-desktop.jpg)
 
-### Step 3 - Deploy and run on raspberry
+### Step 3 - Deploy and run on Raspberry
 
 **3.1 Publish app**
 ```bash
 dotnet publish -c Release -o publish -r linux-arm -p:PublishReadyToRun=true -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true -p:IncludeNativeLibrariesForSelfExtract=true
 ```
 
-**3.2 Copy app to raspberry**  
-Copy the files from `/publish` directory of you're project to you're raspberry.  
+**3.2 Copy app to Raspberry**  
+Copy the files from `/publish` directory of your project to your Raspberry.  
 You can do this via `scp <source> <destination>` or use a app like [CyberDuck](https://cyberduck.io) or via Usb stick.
 
-**3.3 Run app on raspberry**  
-Navigate to the directoy where you copy the application files from step above.  
+**3.3 Run app on Raspberry**   
 First we need to change the permission to executable.
 ```bash
 sudo chmod +x /path/to/app/AvaloniaRaspbianLiteDrm
 ```
 
-You can run the app with the following:
+Now you can run the app with the following:
 ```bash
 sudo ./path/to/app/AvaloniaRaspbianLiteDrm --drm
 ```
 
-Now you should see the app running on you're raspberry pi
-[![](../../.gitbook/assets/avalonia-raspbian-lite-drm-run-on-raspberry.jpg)]()
+You should see the app running on your Raspberry Pi now:  
+[![](../../.gitbook/assets/avalonia-raspbian-lite-drm-run-on-Raspberry.jpg)](../../.gitbook/assets/avalonia-raspbian-lite-drm-run-on-Raspberry.jpg)
 
 
 If you have a touch display installed, try to slide the slider control :)
