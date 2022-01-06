@@ -108,6 +108,15 @@ Another example that involves changing properties inside of control [template](s
 
 Other pseudoclasses include `:focus`, `:disabled`, `:pressed` for buttons, `:checked` for checkboxes etc.
 
+### Custom PseudoClasses  <a id="custom-pseudoclasses"></a>
+
+You can create own pseudoclasses for your `CustomControl` or `TemplatedControl`.
+The function below adds or remove a pseudoclass depending on a boolean value on a `StyledElement`.
+````csharp
+PseudoClasses.Set(":className", bool);
+````
+***Remember:** PseudoClasses always starts with a `:`!* 
+
 ### Selectors <a id="selectors"></a>
 
 _Selectors_ select a control using a custom selector syntax which is very similar to the syntax used for CSS selectors. An example of some selectors:
