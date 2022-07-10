@@ -60,7 +60,8 @@ A top-level window.
 
 ### [WrapPanel](wrappanel.md)
 
-Positions child elements in sequential position from left to right,&#x20;breaking content to the next line at the edge of the containing box.&#x20;
+Positions child elements in sequential position from left to right,&#x20;
+breaking content to the next line at the edge of the containing box.&#x20;
 
 ## Buttons
 
@@ -79,6 +80,18 @@ Represents a button that allows a user to select a single option from a group of
 ### [ToggleButton](togglebutton.md)
 
 Represents a control that a user can select (check) or clear (uncheck).
+
+### [ButtonSpinner](buttonspinner.md)
+
+Represents a spinner control that includes two Buttons
+
+### [SplitButton](SplitButton.md)
+
+Functions as a button with primary and secondary parts that can each be pressed separately. The primary part behaves like normal button and the secondary part opens a flyout with additional actions.
+
+### [ToggleSplitButton](ToggleSplitButton.md)
+
+Functions as a toggle button with primary and secondary parts that can each be pressed separately. The primary part behaves like a normal toggle button and the secondary part opens a flyout with additional actions.
 
 ## Data Display
 
