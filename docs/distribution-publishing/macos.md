@@ -97,6 +97,12 @@ If at any point the tooling gives you an error that your assets file doesn't hav
 
 Add other runtime identifiers as necessary. Each one should be separated by a semicolon \(;\).
 
+### Notes on creating icon files
+
+This type of icon file can not only be created on Apple devices, but it is also possible on Linux devices.  
+You can find more information about how you can achieve that in this blog post:  
+[Creating Mac OS X Icons (icns) on Linux](https://dentrassi.de/2014/02/25/creating-mac-os-x-icons-icns-on-linux/)
+
 ### Notes on the `.app` executable file <a id="notes-on-the-app-executable-file"></a>
 
 The file that is actually executed by macOS when starting your `.app` bundle will **not** have the standard `.dll` extension. If your publish folder contents, which go inside the `.app` bundle, do not have both a `MyApp` \(executable\) and a `MyApp.dll`, things are probably not generating properly, and macOS will probably not be able to start your `.app` properly.
